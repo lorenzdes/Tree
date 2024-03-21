@@ -1,0 +1,40 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/simple-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-1"><a href="index.html">Index</a></div>
+      <div class="col-1"><a href="tree.html">Tree</a></div>
+
+    </div>
+  </div>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script type="text/javascript" src="js/Tree.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Tree, Tidy</title>
+<link rel="stylesheet" type="text/css" href="inspector.css">
+<body>
+<script type="module">
+
+import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+const runtime = new Runtime();
+const main = runtime.module(define, Inspector.into(document.body));
+
+</script>

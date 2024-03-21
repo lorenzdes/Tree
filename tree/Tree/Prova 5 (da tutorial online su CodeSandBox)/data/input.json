@@ -1,0 +1,25 @@
+{
+    "name": "ROOT",
+    "children": [
+      {
+        "name": "A",
+        "children": [
+          { "name": "AB", "value": 1000 },
+          { "name": "AC", "value": 2000 }
+        ]
+      },
+      {
+        "name": "B",
+        "children": [
+          {
+            "name": "BA",
+            "children": [
+              { "name": "BAA", "value": 500 }
+            ]
+          },
+          { "name": "BB", "value": 100 }
+        ]
+      },
+      { "name": "C", "value": 5000 }
+    ]
+  }  

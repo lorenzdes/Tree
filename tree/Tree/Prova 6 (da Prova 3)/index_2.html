@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" >
+</head>
+
+<body>
+    <div class="row">
+        <div class="column menu_panel">
+            <h4>Settings</h4>
+            <div row>
+                <h6>Expand or Collpase</h6>
+                <button id="expand_button" class="button button_format">Expand All</button>
+                <button id="collapse_button" class="button button_format">Collapse All</button>
+            </div>
+            <div row>
+                <h6>Font size</h6>
+                <input class="none" type="range" min="5" max="15" value="10" id="sliderFontSize" step="1">
+            </div>
+            <div row>
+                <h6>Node size</h6>
+                <input class="none" type="range" min="1" max="80" value="40" id="sliderNodeSize" step="1">
+            </div>
+            <div>
+                <button id="nodecont_dropdown_btn" class="button button_nodecont">
+                    Metric
+                    <i class="bx bx-chevron-down" id="arrow"></i>
+                </button>
+                <div class="dropdown" id="dropdown">
+                    <a>
+                        <!--i class="bx bx-plus-circle"></i-->
+                        Net MtM
+                    </a>
+                    <a>Gross MtM</a>
+                    <a>VaR</a>
+                </div>
+            </div>
+            <div>
+                <select id="metrics" onchange="DropInfo()">
+                    <option value="0">Select:</option>
+                    <option value="1">Net MtM</option>
+                    <option value="2">Gross MtM</option>
+                    <option value="3">VaR</option>
+                </select>
+            </div>
+        </div>
+        <div class="column" style="background-color:#ffffff;">
+            <div class="container" id="treeChart">
+                <div id="tooltip">
+                    <h4>Node info</h4>
+                </div>
+            </div>
+            <script src="https://d3js.org/d3.v6.min.js"></script>
+            <script type="module" src="js/my_tree2.js"></script>
+        </div>
+    </div>
+  
+</body>
+
+</html>

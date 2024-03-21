@@ -1,0 +1,29 @@
+{
+    "name": "ROOT",
+    "abs_mtm": 50,
+    "risk_metric": 1,
+    "children": [
+      {
+        "name": "A",
+        "abs_mtm": 30,
+        "risk_metric": -1,
+        "children": [
+          {
+            "name": "AA",
+            "abs_mtm": 20,
+            "risk_metric": -1
+          },
+          {
+            "name": "AB",
+            "abs_mtm": 10,
+            "risk_metric": 1
+          }
+        ]
+      },
+      {
+        "name": "B",
+        "abs_mtm": 20,
+        "risk_metric": 1
+      }
+    ]
+}

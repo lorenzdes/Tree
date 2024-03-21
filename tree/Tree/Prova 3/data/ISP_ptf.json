@@ -1,0 +1,53 @@
+{
+    "name": "ISP DIVERSIFICATO",
+    "children": [
+        {
+            "name": "ISP HTC",
+            "children": [
+                {
+                    "name": "ISP CLB BB",
+                    "positions": 1,
+                    "mtm": 1059651.482,
+                    "abs_mtm": 1059651.482,
+                    "risk_metric": -8793.01
+                },
+                {
+                    "name": "ISP L&R",
+                    "positions": 2,
+                    "mtm": 27749850.24,
+                    "abs_mtm": 27749850.24,
+                    "risk_metric": -378594.9
+                },
+                {
+                    "name": "ISP STRATEGIC LIQUIDITY PTF",
+                    "positions": 161,
+                    "mtm": 12776299675.0,
+                    "abs_mtm": 13154543613.0,
+                    "risk_metric": -50877392.39
+                }
+            ],
+            "positions": 1801,
+            "mtm": 20273016608.52,
+            "abs_mtm": 23675557027.979,
+            "risk_metric": -121707036.05
+        },
+        {
+            "name": "CIB",
+            "positions": 1101370,
+            "mtm": 20244782525.2871,
+            "abs_mtm": 5515556923348.784,
+            "risk_metric": -127180678.76
+        },
+        {
+            "name": "ISP CFO",
+            "positions": 157611,
+            "mtm": 115899245473.36842,
+            "abs_mtm": 715726568957.1943,
+            "risk_metric": -14676205.4   
+        }
+    ],
+    "positions": 1261482,
+    "mtm": 157259528253.63742,
+    "abs_mtm": 6258256253318.278,
+    "risk_metric": -129579117.53
+}

@@ -1,0 +1,17 @@
+{
+    "name": "ISP DIVERSIFICATO",
+    "abs_mtm": 6258256253318.278,
+    "risk_metric": -129579117.53,
+    "children": [
+        {
+            "name": "ISP HTC",
+            "abs_mtm": 23675557027.979,
+            "risk_metric": -121707036.05
+        },
+        {
+            "name": "CIB",
+            "abs_mtm": 5515556923348.784,
+            "risk_metric": -127180678.76
+        }
+    ]
+}

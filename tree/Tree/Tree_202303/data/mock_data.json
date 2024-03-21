@@ -1,0 +1,28 @@
+{
+    "name": "A",
+    "children": [
+        {
+            "name": "B1",
+            "children": [
+                {
+                    "name": "B1C1",
+                    "mtm": 10,
+                    "abs_mtm": 10,
+                    "risk_metric": 10
+                }
+            ],
+            "mtm": 10,
+            "abs_mtm": 10,
+            "risk_metric": 10
+        },
+        {
+            "name": "B2",
+            "mtm": 10,
+            "abs_mtm": 10,
+            "risk_metric": 10
+        }
+    ],
+    "mtm": 10,
+    "abs_mtm": 10,
+    "risk_metric": 10
+}

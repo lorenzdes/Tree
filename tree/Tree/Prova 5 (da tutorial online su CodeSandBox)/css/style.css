@@ -1,0 +1,33 @@
+.node circle {
+    fill: rgb(202, 72, 72);
+  }
+  
+  .node text {
+    font: 10px sans-serif;
+  }
+  
+  .node--internal circle {
+    fill: rgb(95, 185, 10);
+  }
+  
+  .node--internal text {
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+  }
+  
+  .link {
+    fill: none;
+    stroke: rgb(230, 8, 8);
+    stroke-opacity: 0.4;
+    stroke-width: 1.5px;
+  }
+  
+  form {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  
+  label {
+    display: block;
+  }  
